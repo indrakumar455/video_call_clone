@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.homeContainer {
+  width: 100vw;
+  height: 100vh;
+}
+nav {
+  height: 10vh;
+  padding-inline: 2.5rem;
+  padding-block: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+nav .navlist {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1rem;
+  cursor: grab;
+}
+.navlist button:hover {
+  background-color: transparent;
+}
+.navlist p {
+  font-size: 1rem;
+}
+
+.homeHeader {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 5rem;
+}
+
+.homeHeader .rightpanel {
+  width: 50vw;
+}
+
+.homeHeader .rightpanel img {
+  height: 100%;
+  width: 90%;
+}
+.leftPanel h2{
+  font-size: 2rem;
+  opacity: 0.7;
+}
+.meetingAreaInput {
+  margin-top: 50px;
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.meetingBtn {
+  background-color: #197dcf;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+/* history css */
+
+.HistoryContainer{
+  margin: 2rem;
+}
+.historyCard{
+  height: 15vh;
+  width: 90vw;
+  border: 1px solid rgb(91, 91, 91);
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
