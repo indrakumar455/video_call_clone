@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-
+import background from "../assets/background.png";
 export default function landingPage() {
 
   const routeTo = useNavigate();
@@ -12,7 +12,7 @@ export default function landingPage() {
     routeTo("/asas");
   }
   return (
-    <div className="landingpagecontainer" >
+    <div className="landingpagecontainer"  style={{backgroundImage:`${background}`}}>
       <nav>
         <div className="navHeader">
           <h2>APNA VIDEO CALL</h2>

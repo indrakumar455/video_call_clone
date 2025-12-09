@@ -1,74 +1,66 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.landingpagecontainer{
+.landingpagecontainer {
   width: 100vw;
   height: 100vh;
-<<<<<<< HEAD
- background-image: url("pexels-derice-jason-fahnkow-745824-1595244.jpg");
- 
-=======
- /* background-image: url("background.png"); */
-  background-color:black;
->>>>>>> fca9fa8b54753659a7cce8f81054b72ee78be01c
+  background-image: url("pexels-derice-jason-fahnkow-745824-1595244.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 
-.landingpagecontainer nav{
+.landingpagecontainer nav {
   padding-inline: 1.5rem;
   padding-block: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.landingpagecontainer nav h2{
+.landingpagecontainer nav h2 {
   font-size: 1.6rem;
   font-weight: 600;
- 
 }
 
-.landingpagecontainer nav .navlist{
+.landingpagecontainer nav .navlist {
   display: flex;
   gap: 1.2rem;
   font-size: 1rem;
   cursor: grab;
 }
 
-.landingpagecontainer nav .navlist div{
+.landingpagecontainer nav .navlist div {
   background-color: #ff9839;
   padding-inline: 1rem;
   padding-block: 0.2rem;
   border-radius: 10%;
-  
 }
-.landingmaincontainer{
+.landingmaincontainer {
   display: flex;
   justify-content: space-between;
   height: 70vh;
   align-items: center;
 }
 
-.landingmaincontainer .point{
+.landingmaincontainer .point {
   /* padding-top: 8rem; */
   padding-left: 5rem;
-  
 }
-.landingmaincontainer .point h2{
+.landingmaincontainer .point h2 {
   font-size: 3rem;
 }
-.landingmaincontainer .point h2 span{
+.landingmaincontainer .point h2 span {
   color: #ff9839;
 }
-.landingmaincontainer .point p{
+.landingmaincontainer .point p {
   font-size: 1.5rem;
   font-weight: 100;
 }
-.landingmaincontainer .point .button{
+.landingmaincontainer .point .button {
   background-color: #ff9839;
   width: fit-content;
   padding: 0.3rem 1.3rem;
@@ -76,12 +68,10 @@
   cursor: pointer;
   color: white;
   font-size: 1.5rem;
-  margin-top: 2rem
+  margin-top: 2rem;
 }
 
-
-.landingmaincontainer .img{
- 
+.landingmaincontainer .img {
   padding-top: 4rem;
   width: 35vw;
 }
