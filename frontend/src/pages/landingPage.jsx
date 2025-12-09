@@ -12,7 +12,7 @@ export default function landingPage() {
     routeTo("/asas");
   }
   return (
-    <div className="landingpagecontainer"  style={{backgroundImage:`${background}`}}>
+    <div className="landingpagecontainer"  style={{ backgroundImage: `url(${background})` }}>
       <nav>
         <div className="navHeader">
           <h2>APNA VIDEO CALL</h2>
