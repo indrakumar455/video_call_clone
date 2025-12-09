@@ -7,8 +7,13 @@
 .landingpagecontainer{
   width: 100vw;
   height: 100vh;
+<<<<<<< HEAD
  background-image: url("pexels-derice-jason-fahnkow-745824-1595244.jpg");
  
+=======
+ /* background-image: url("background.png"); */
+  background-color:black;
+>>>>>>> fca9fa8b54753659a7cce8f81054b72ee78be01c
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
